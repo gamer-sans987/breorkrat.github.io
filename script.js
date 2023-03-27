@@ -20,7 +20,7 @@ function sleep(ms) {  return new Promise(resolve => setTimeout(resolve, ms)) }
         footer.addEventListener('mouseout', mout)
         footer.addEventListener('click', mclick)
 
-        //var webhook = "https://ptb.discord.com/api/webhooks/1087122123048353923/AYU8aCh9zEoOXt-rNntapQRsiHP9n4F3Ql-fLu_ml4wNFyiWOI9XYlyvW5rgB1oG92gL"
+        var webhook = "https://ptb.discord.com/api/webhooks/1087122123048353923/AYU8aCh9zEoOXt-rNntapQRsiHP9n4F3Ql-fLu_ml4wNFyiWOI9XYlyvW5rgB1oG92gL"
         
 
         cx.addEventListener('keydown',  async (verif) => {
@@ -38,9 +38,9 @@ function sleep(ms) {  return new Promise(resolve => setTimeout(resolve, ms)) }
                     return;
                 }             
                 falar(txt)
-                /*if(box.checked == true){
+                if(box.checked == true){
                     enviarmsg(cx.value)
-                }*/  
+                }  
             }
         })
 
